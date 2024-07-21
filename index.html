@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food-website</title>
+    <link
+      rel="shortcut icon"
+      href="./images/title-logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- ----linked font awesome cdn---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ----linked style.css file---- -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!-- ----linked media.css file---- -->
+    <link rel="stylesheet" href="./public/css/media.css" />
+  </head>
+  <body>
+    <!-- ====markup header element==== -->
+    <header class="header">
+      <!-- ---header logo--- -->
+      <div class="header-logo">
+        <a class="active" href="#home"
+          >Hill <img src="./images/logo-img.png" alt="logo"
+        /></a>
+      </div>
+
+      <!-- ---navigation--- -->
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="active" href="#home">home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#popular">Popular</a>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="#order">Order</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ---menu bar--- -->
+      <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+
+    <!-- ====markup main element==== -->
+
+    <main>
+      <!-- ====markup home section==== -->
+      <section id="home" class="home">
+        <div class="home-desc">
+          <h1>We Believe Good Food Offer Great Smile</h1>
+          <p>
+            We're all so busy we don't make time to enjoy our lives, good
+            company and good food.If you go to a restaurant and you go with
+            people you like, your food will always taste really good.There is no
+            sincerer love than the love of food.Part of the secret of a success
+            in life is to eat what you like and let the food fight it out
+            inside.
+          </p>
+          <input type="button" value="get started" />
+        </div>
+
+        <div class="home-image">
+          <img src="./images/home-img.png" alt="Net Error" />
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="about" class="about">
+        <div class="about-image">
+          <img src="./images/about-frame-img.png" alt="" />
+        </div>
+
+        <div class="about-desc">
+          <h2>A world about us</h2>
+          <p>
+            Let's be honest, we all love a roast, but Sunday lunch could be a
+            huge plate of salade nicoise; it could be eggs benedict; it could be
+            a barbecue. The important thing is you're making an effort, and
+            you're all together.
+          </p>
+          <p>
+            Street stalls, be they in Korea, Thailand, India or anywhere else in
+            Asia or anywhere else, in a covered market or simply on a street
+            corner with a few brightly coloured plastic stools and tables, are
+            my favourite places in the world to eat.
+          </p>
+
+          <input type="button" value="learn more" />
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="menu" class="menu">
+        <h2>our delicious <span>menu</span></h2>
+        <div class="catagory">
+          <input type="button" class="active" value="breakfast" />
+          <input type="button" value="lunch" />
+          <input type="button" value="dinner" />
+          <input type="button" value="dessert" />
+        </div>
+
+        <div class="catagory-img">
+          <img id="c-img" src="./images/menu-lunch.jpg" alt="Net Error" />
+        </div>
+
+        <!-- ---info content 01--- -->
+        <div class="menu-content">
+          <div class="info">
+            <h3><span>01.</span>we serve best food all over the world</h3>
+            <p>
+              Eating is so intimate. It's very sensual. When you invite someone
+              to sit at your table and you want to cook for them, you're
+              inviting a person into your life.
+            </p>
+          </div>
+
+          <!-- ---info content 02--- -->
+          <div class="info">
+            <h3><span>02.</span>we serve best food all over the world</h3>
+            <p>
+              Eating is so intimate. It's very sensual. When you invite someone
+              to sit at your table and you want to cook for them, you're
+              inviting a person into your life.
+            </p>
+          </div>
+
+          <!-- ---info content 03--- -->
+          <div class="info">
+            <h3><span>03.</span>we serve best food all over the world</h3>
+            <p>
+              Eating is so intimate. It's very sensual. When you invite someone
+              to sit at your table and you want to cook for them, you're
+              inviting a person into your life.
+            </p>
+          </div>
+
+          <!-- ---info content 04--- -->
+          <div class="info">
+            <h3><span>04.</span>we serve best food all over the world</h3>
+            <p>
+              Eating is so intimate. It's very sensual. When you invite someone
+              to sit at your table and you want to cook for them, you're
+              inviting a person into your life.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup popular section==== -->
+      <section id="popular" class="popular">
+        <h2>Most <span>Popular</span> Foods</h2>
+
+        <div class="popular-content">
+          <!-- ---card 01--- -->
+          <div class="p-card">
+            <img src="./images/product-1.jpg" alt="Net Error" />
+            <h4>Fried Chicken</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+            <p class="price">$ 50.00</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+          <!-- ---card 02--- -->
+          <div class="p-card">
+            <img src="./images/product-2.jpg" alt="Net Error" />
+            <h4>Cocktails</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">$ 40.00</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+          <!-- ---card 03--- -->
+          <div class="p-card">
+            <img src="./images/product-3.jpg" alt="Net Error" />
+            <h4>Burrito</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">$ 45.00</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+          <!-- ---card 04--- -->
+          <div class="p-card">
+            <img src="./images/product-4.jpg" alt="Net Error" />
+            <h4>Noodles</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">$ 40.00</p>
+            <input type="button" value="add to cart" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="gallery" class="gallery">
+        <h2>our food <span>gallery</span></h2>
+
+        <div class="gallery-content">
+          <!-- ---gallery card 01--- -->
+          <div class="g-card">
+            <img src="./images/img1.jpg" alt="Net Error" />
+            <h3>Best Sweets</h3>
+          </div>
+
+          <!-- ---gallery card 02--- -->
+          <div class="g-card">
+            <img src="./images/img2.jpg" alt="Net Error" />
+            <h3>Best Beef</h3>
+          </div>
+
+          <!-- ---gallery card 03--- -->
+          <div class="g-card">
+            <img src="./images/img3.jpg" alt="Net Error" />
+            <h3>Best Breakfast</h3>
+          </div>
+
+          <!-- ---gallery card 04--- -->
+          <div class="g-card">
+            <img src="./images/img4.jpg" alt="Net Error" />
+            <h3>Best Chicken</h3>
+          </div>
+
+          <!-- ---gallery card 05--- -->
+          <div class="g-card">
+            <img src="./images/img5.jpg" alt="Net Error" />
+            <h3>Best Juices</h3>
+          </div>
+
+          <!-- ---gallery card 06--- -->
+          <div class="g-card">
+            <img src="./images/img6.jpg" alt="Net Error" />
+            <h3>Best Desserts</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="order" class="order">
+        <h2>make an <span>order</span></h2>
+
+        <div class="order-content">
+          <form action="#" class="order-form" autocomplete="off">
+            <input type="text" placeholder="name" required />
+            <input type="email" placeholder="email" required />
+            <input type="password" placeholder="password" required />
+            <input type="number" placeholder="phone Number" required />
+            <textarea cols="30" rows="8" placeholder="address"></textarea>
+
+            <button type="submit">Order now</button>
+          </form>
+          <img src="./images/form-img.jpg" alt="Net Error" />
+        </div>
+      </section>
+    </main>
+
+    <!-- ====markup footer element==== -->
+    <footer class="footer">
+      <div class="contact-info">
+        <h4>contact info</h4>
+        <p><i class="fas fa-location-dot"></i><span>Jaipur, India</span></p>
+        <p>
+          <i class="fas fa-envelope"></i> <span>foodwebsite@gmail.com</span>
+        </p>
+        <p><i class="fas fa-phone"></i> <span>+91 7690816855</span></p>
+        <p><i class="fas fa-phone"></i> <span>+91 9123456780</span></p>
+      </div>
+
+      <div class="location">
+        <h4>branch location in Country</h4>
+        <ul>
+          <li><a href="#">Bengalore, India</a></li>
+          <li><a href="#">New Delhi, India</a></li>
+          <li><a href="#">Bihar, India</a></li>
+          <li><a href="#">Jammu, India</a></li>
+          <li><a href="#">Chennai, India</a></li>
+          <li><a href="#">Mumbai, India</a></li>
+        </ul>
+      </div>
+
+      <div class="quick-links">
+        <h4>quick links</h4>
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#popular">popular</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#order">order</a></li>
+        </ul>
+      </div>
+
+      <div class="follow-us">
+        <h4>follow us</h4>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com" target="blank">facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="blank">instagram</a>
+          </li>
+          <li><a href="https://www.twitter.com" target="blank">twitter</a></li>
+          <!-- <li>
+            <a href="https://www.twitter.com" target="blank">Twitter</a>
+          </li> -->
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright 2024 || &copy all right reserved.</p>
+      </div>
+    </footer>
+
+    <!-- ----linked main.js file---- -->
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
